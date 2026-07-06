@@ -51,7 +51,10 @@ GIF created with LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The challenges were mostly in css as I really wanted to improve my css abilities this time and try to expand out my ideas as well. 
+Also another challenge was getting the country api to work as this api had a lot of parameters and stuff so I had to do a lot of filtering 
+to get the data that I wanted and even make 3 requests use a promsie all to get a list of all the countries as since I was on the free tier I only 
+hasd a limi of 100 countries I could fetch at a time.
 
 ## License
 
