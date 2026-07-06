@@ -1,7 +1,7 @@
 import fs from 'fs';
 import axios from 'axios';
 
-const API_KEY = 'rc_live_bf96d9a5aac44ec6ac27c2294ed510bc';
+const API_KEY = '';
 const API_URL = 'https://api.restcountries.com/countries/v5?limit=100';
 
 async function downLoadData() {
