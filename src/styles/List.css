@@ -1,0 +1,93 @@
+.List{
+    display: flex;
+    border: 1px solid hsla(0, 0%, 100%, .3);
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    backdrop-filter: blur(4px);
+    background-color: hsla(0, 0%, 100%, .092);
+    box-shadow: 0 15px 25px hsla(0, 2%, 50%, .154);
+    padding: 20px 20px 40px;
+    width: 900px;
+    height: 1050px;
+    border-radius: 24px;
+    font-size: medium;
+    text-align: center;
+}
+
+table {
+    border-spacing: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+table img {
+    width: 50px;
+    height: 30px;
+}
+
+.pagination {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    color: white;
+}
+
+.pagination button {
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: 1px solid hsla(0, 0%, 100%, .3);
+    background-color: hsla(0, 0%, 100%, .08);
+    backdrop-filter: blur(4px);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color .2s, border-color .2s;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: hsla(0, 0%, 100%, .18);
+    border-color: hsla(0, 0%, 100%, .5);
+}
+
+.pagination button:disabled {
+    opacity: .4;
+    cursor: not-allowed;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-filter {
+    flex: 1;
+}
+
+.search-filter input[type="text"] {
+    width: 325px;
+    box-sizing: border-box;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 1px solid hsla(0, 0%, 100%, .3);
+    background-color: hsla(0, 0%, 100%, .08);
+    color: white;
+    font-size: 16px;
+    transition: background-color .2s, border-color .2s;
+}
+
+.search-filter input[type="text"]::placeholder {
+    color: hsla(0, 0%, 100%, .55);
+}
+
+.search-filter input[type="text"]:focus {
+    outline: none;
+    border-color: hsla(0, 0%, 100%, .6);
+    background-color: hsla(0, 0%, 100%, .15);
+}
